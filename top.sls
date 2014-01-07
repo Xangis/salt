@@ -1,0 +1,5 @@
+base:
+    '*':
+        - systemtools
+        - nginx
+        - postgresql
