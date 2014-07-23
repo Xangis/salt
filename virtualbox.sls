@@ -1,35 +1,31 @@
-lm-sensors:
+virtualbox:
     pkg:
         - installed
 
-hdparm:
+virtualbox-fuse:
     pkg:
         - installed
 
-aptitude:
+virtualbox-guest-additions-iso:
     pkg:
         - installed
 
-cpulimit:
+virtualbox-dkms:
     pkg:
         - installed
 
-zip:
+virtualbox-guest-utils:
     pkg:
         - installed
 
-unzip:
+virtualbox-guest-x11:
     pkg:
         - installed
 
-usbmount:
+virtualbox-qt:
     pkg:
         - installed
 
-sysstat:
-    pkg:
-        - installed
-
-python-pip:
+vagrant:
     pkg:
         - installed
